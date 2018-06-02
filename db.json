@@ -1,17 +1,13 @@
 {
-	"companies": [
-		{
+	"companies": [{
 			"id": 1,
 			"name": "Dokflyt",
-			"employees": [
-				{
-					"id": 1,
-					"name": "Arne Eksempel",
-					"role": "Project lead"
-				}
-			],
-			"customers": [
-				{
+			"employees": [{
+				"id": 1,
+				"name": "Arne Eksempel",
+				"role": "Project lead"
+			}],
+			"customers": [{
 					"id": 1,
 					"name": "Statkraft"
 				},
@@ -22,10 +18,17 @@
 				{
 					"id": 3,
 					"name": "Privatkraft"
+				},
+				{
+					"id": 4,
+					"name": "Nettservice"
+				},
+				{
+					"id": 5,
+					"name": "Flyt"
 				}
 			],
-			"projects": [
-				{
+			"projects": [{
 					"id": 1,
 					"name": "project1",
 					"location": "Gjøvik",
@@ -35,13 +38,11 @@
 					"projectlead": "Arne Eksempel",
 					"customer": "Statkraft",
 					"status": "under behandling",
-					"SJA": [
-						{
-							"id": 1,
-							"date": "2017-12-15",
-							"doneby": "Rolf Eksempel"
-						}
-					]
+					"SJA": [{
+						"id": 1,
+						"date": "2017-12-15",
+						"doneby": "Rolf Eksempel"
+					}]
 				},
 				{
 					"id": 2,
@@ -53,13 +54,11 @@
 					"projectlead": "Arne Eksempel",
 					"customer": "Statkraft",
 					"status": "ferdig",
-					"SJA": [
-						{
-							"id": 1,
-							"date": "2018-03-03",
-							"doneby": "Rolf Eksempel"
-						}
-					]
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-03",
+						"doneby": "Rolf Eksempel"
+					}]
 				},
 				{
 					"id": 3,
@@ -71,13 +70,11 @@
 					"projectlead": "Arne Eksempel",
 					"customer": "Statkraft",
 					"status": "ferdig",
-					"SJA": [
-						{
-							"id": 1,
-							"date": "2018-03-02",
-							"doneby": "Rolf e"
-						}
-					]
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
 				},
 				{
 					"id": 4,
@@ -89,13 +86,11 @@
 					"projectlead": "Arne Eksempel",
 					"customer": "Statkraft",
 					"status": "ferdig",
-					"SJA": [
-						{
-							"id": 1,
-							"date": "2018-03-02",
-							"doneby": "Rolf e"
-						}
-					]
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
 				},
 				{
 					"id": 5,
@@ -132,6 +127,101 @@
 					"customer": "Statkraft",
 					"status": "under behandling",
 					"SJA": []
+				}, {
+					"id": 8,
+					"name": "project4",
+					"location": "Hamar",
+					"startdate": "2018-03-04",
+					"enddate": "2018-06-06",
+					"deadline": "2018-06-03",
+					"projectlead": "Arne Eksempel",
+					"customer": "Eidsiva",
+					"status": "ferdig",
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
+				},
+				{
+					"id": 9,
+					"name": "project4",
+					"location": "Hamar",
+					"startdate": "2016-03-04",
+					"enddate": "2016-04-04",
+					"deadline": "2016-03-15",
+					"projectlead": "Arne Eksempel",
+					"customer": "Statkraft",
+					"status": "ferdig",
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
+				},
+				{
+					"id": 10,
+					"name": "project4",
+					"location": "Hamar",
+					"startdate": "2018-03-04",
+					"enddate": "",
+					"deadline": "2018-06-03",
+					"projectlead": "Arne Eksempel",
+					"customer": "Nettservice",
+					"status": "under behandling",
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
+				},
+				{
+					"id": 11,
+					"name": "project4",
+					"location": "Hamar",
+					"startdate": "2017-04-04",
+					"enddate": "",
+					"deadline": "2017-06-03",
+					"projectlead": "Arne Eksempel",
+					"customer": "Privatkraft",
+					"status": "under behandling",
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
+				},
+				{
+					"id": 12,
+					"name": "project4",
+					"location": "Hamar",
+					"startdate": "2016-03-04",
+					"enddate": "",
+					"deadline": "2017-06-03",
+					"projectlead": "Arne Eksempel",
+					"customer": "Eidsiva",
+					"status": "under behandling",
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
+				},
+				{
+					"id": 13,
+					"name": "project4",
+					"location": "Hamar",
+					"startdate": "2016-03-04",
+					"enddate": "",
+					"deadline": "2017-06-03",
+					"projectlead": "Arne Eksempel",
+					"customer": "Eidsiva",
+					"status": "under behandling",
+					"SJA": [{
+						"id": 1,
+						"date": "2018-03-02",
+						"doneby": "Rolf e"
+					}]
 				}
 			]
 		},
@@ -139,86 +229,181 @@
 		{
 			"id": 2,
 			"name": "Nettservice",
-			"employees": [
-				{
+			"employees": [{
+				"id": 1,
+				"name": "Arne Eksempel",
+				"role": "Project lead"
+			}],
+			"customers": [{
+				"id": 1,
+				"name": "Statkraft"
+			}],
+			"projects": [{
+				"id": 1,
+				"name": "project1",
+				"location": "Gjøvik",
+				"deadline": "2018-03-02",
+				"projectlead": "Arne Eksempel",
+				"customer": "Fjordkraft",
+				"SJA": [{
 					"id": 1,
-					"name": "Arne Eksempel",
-					"role": "Project lead"
-				}
-			],
-			"customers": [
-				{
-					"id": 1,
-					"name": "Statkraft"
-				}
-			],
-			"projects": [
-				{
-					"id": 1,
-					"name": "project1",
-					"location": "Gjøvik",
-					"deadline": "2018-03-02",
-					"projectlead": "Arne Eksempel",
-					"customer": "Fjordkraft",
-					"SJA": [
-						{
-							"id": 1,
-							"date": "02-03-2018",
-							"doneby": "Rolf Eksempel"
-						}
-					]
-				}
-			]
+					"date": "02-03-2018",
+					"doneby": "Rolf Eksempel"
+				}]
+			}]
 		}
 	],
 
-	"users": [
+	"users": [{
+		"id": 1,
+		"name": "Arne Eksempel",
+		"company": "Dokflyt"
+	}],
+	"ActiveProjects": [{
+			"date": "2018-01",
+			"active": 32
+		},
 		{
-			"id": 1,
-			"name": "Raymond Dalsborg",
-			"company": "Dokflyt"
+			"date": "2018-02",
+			"active": 31
+		},
+		{
+			"date": "2018-03",
+			"active": 31
+		},
+		{
+			"date": "2018-04",
+			"active": 33
+		},
+		{
+			"date": "2018-05",
+			"active": 34
+		},
+		{
+			"date": "2018-06",
+			"active": 35
+		},
+		{
+			"date": "2018-07",
+			"active": 34
+		},
+		{
+			"date": "2018-08",
+			"active": 34
+		},
+		{
+			"date": "2018-09",
+			"active": 32
+		},
+		{
+			"date": "2018-10",
+			"active": 31
+		},
+		{
+			"date": "2018-11",
+			"active": 29
+		},
+		{
+			"date": "2018-12",
+			"active": 28
 		}
 	],
-	"ActiveProjects": [
-		{ "date": "2018-01", "active": 23 },
-		{ "date": "2018-02", "active": 31 },
-		{ "date": "2018-03", "active": 34 },
-		{ "date": "2018-04", "active": 33 },
-		{ "date": "2018-05", "active": 28 },
-		{ "date": "2018-06", "active": 26 },
-		{ "date": "2018-07", "active": 30 },
-		{ "date": "2018-08", "active": 34 },
-		{ "date": "2018-09", "active": 37 },
-		{ "date": "2018-10", "active": 32 },
-		{ "date": "2018-11", "active": 27 },
-		{ "date": "2018-12", "active": 22 }
+	"SjaThisYear": [{
+			"date": "2018-01",
+			"active": 25
+		},
+		{
+			"date": "2018-02",
+			"active": 27
+		},
+		{
+			"date": "2018-03",
+			"active": 31
+		},
+		{
+			"date": "2018-04",
+			"active": 34
+		},
+		{
+			"date": "2018-05",
+			"active": 46
+		},
+		{
+			"date": "2018-06",
+			"active": 48
+		},
+		{
+			"date": "2018-07",
+			"active": 49
+		},
+		{
+			"date": "2018-08",
+			"active": 50
+		},
+		{
+			"date": "2018-09",
+			"active": 55
+		},
+		{
+			"date": "2018-10",
+			"active": 65
+		},
+		{
+			"date": "2018-11",
+			"active": 67
+		},
+		{
+			"date": "2018-12",
+			"active": 71
+		}
 	],
-	"SjaThisYear": [
-		{ "date": "2018-01", "active": 25 },
-		{ "date": "2018-02", "active": 27 },
-		{ "date": "2018-03", "active": 31 },
-		{ "date": "2018-04", "active": 34 },
-		{ "date": "2018-05", "active": 46 },
-		{ "date": "2018-06", "active": 48 },
-		{ "date": "2018-07", "active": 49 },
-		{ "date": "2018-08", "active": 50 },
-		{ "date": "2018-09", "active": 55 },
-		{ "date": "2018-10", "active": 65 },
-		{ "date": "2018-11", "active": 67 },
-		{ "date": "2018-12", "active": 71 }
-	],
-	"NewProjects": [
-		{ "date": "2018-01", "active": 14 },
-		{ "date": "2018-02", "active": 22 },
-		{ "date": "2018-03", "active": 27 },
-		{ "date": "2018-04", "active": 31 },
-		{ "date": "2018-05", "active": 35 },
-		{ "date": "2018-06", "active": 38 },
-		{ "date": "2018-07", "active": 42 },
-		{ "date": "2018-08", "active": 44 },
-		{ "date": "2018-09", "active": 48 },
-		{ "date": "2018-10", "active": 45 },
-		{ "date": "2018-11", "active": 32 },
-		{ "date": "2018-12", "active": 32 }
+	"NewProjects": [{
+			"date": "2018-01",
+			"active": 14
+		},
+		{
+			"date": "2018-02",
+			"active": 22
+		},
+		{
+			"date": "2018-03",
+			"active": 27
+		},
+		{
+			"date": "2018-04",
+			"active": 31
+		},
+		{
+			"date": "2018-05",
+			"active": 35
+		},
+		{
+			"date": "2018-06",
+			"active": 38
+		},
+		{
+			"date": "2018-07",
+			"active": 42
+		},
+		{
+			"date": "2018-08",
+			"active": 44
+		},
+		{
+			"date": "2018-09",
+			"active": 48
+		},
+		{
+			"date": "2018-10",
+			"active": 45
+		},
+		{
+			"date": "2018-11",
+			"active": 32
+		},
+		{
+			"date": "2018-12",
+			"active": 32
+		}
 	]
 }
