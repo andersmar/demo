@@ -308,6 +308,54 @@
 			"active": 28
 		}
 	],
+	"ActiveProjectsThisYear": [{
+			"date": "2018-06",
+			"active": 35
+		},
+		{
+			"date": "2018-07",
+			"active": 34
+		},
+		{
+			"date": "2018-08",
+			"active": 34
+		},
+		{
+			"date": "2018-09",
+			"active": 32
+		},
+		{
+			"date": "2018-10",
+			"active": 31
+		},
+		{
+			"date": "2018-11",
+			"active": 29
+		},
+		{
+			"date": "2018-12",
+			"active": 28
+		}, {
+			"date": "2018-01",
+			"active": 32
+		},
+		{
+			"date": "2018-02",
+			"active": 31
+		},
+		{
+			"date": "2018-03",
+			"active": 31
+		},
+		{
+			"date": "2018-04",
+			"active": 33
+		},
+		{
+			"date": "2018-05",
+			"active": 34
+		}
+	],
 	"SjaThisYear": [{
 			"date": "2018-01",
 			"active": 25
